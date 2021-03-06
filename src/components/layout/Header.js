@@ -16,7 +16,7 @@ export default function Header() {
                     <MenuIcon />
                 </Menu>
                 <Logo>
-                    <img src='https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r2.png' />
+                    <img src='https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r2.png' alt="" />
                 </Logo>
             </LogoWraper>
 
@@ -60,6 +60,7 @@ const Logo = styled.div `
 const Menu = styled.div`
      display:grid;
      place-items:center;
+     cursor:pointer;
 `;
 const SearchWrapper = styled.div`
 
